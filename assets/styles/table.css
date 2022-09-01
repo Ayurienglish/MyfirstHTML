@@ -1,0 +1,47 @@
+table,td,th
+{
+  border: 1px solid black;
+}
+
+td,th
+{
+  padding: 12px;
+}
+
+.empty-cell-show
+{
+  empty-cells: show; 
+  /* default value */
+}
+
+.empty-cell-hide
+{
+  empty-cells: hide;
+}
+
+.border-collapse-collapse
+{
+  border-collapse: collapse;
+  /* table borders are merged into one ; */
+}
+
+.border-collapse-separate
+{
+  border-collapse: separate;
+  /* defaul value ; */
+}
+
+.border-spacing-15
+{
+  border-spacing: 15px;
+  /* sets the horizontal and vartical spacing to 15px */
+}
+
+.border-spacing-15-30
+{
+  border-spacing: 15px 30px;
+  /* sets the horizontal spacing to 15px */
+  /* sets the vertical spacing to 30px */
+  /* border-spacing: horizontal-spacing vertical-spacing */
+}
+

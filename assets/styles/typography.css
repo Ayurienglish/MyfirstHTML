@@ -1,0 +1,120 @@
+/* EXTERNAL CSS */
+h2{
+    color: brown;
+}
+
+/* UNIVESRL SELECTOR - selects all elments */
+*{
+    color: crimson;
+}
+
+/* ELEMENT SELECTOU - uses the element name to target the element and declare css properties*/
+
+h2{
+    background-color:blue
+}
+
+
+/* CLASS SELECTOR uses the class name to target and style the element */
+/* when declaring a class name in your css file, DO NOT forget to add the dot(.) at the very begining of the class name  */
+.text-center{
+    text-align: center;
+}
+
+
+/* ID SELECTOR - uses an ID to target and style an element */
+/* DO NOT FORGET to add the hashtag / number symbol (#) before the ID NAME */
+
+#facebook{
+    text-decoration: none;
+    color: rgb(139, 0, 120);
+}
+
+.sample{
+    text-shadow: 2px 2px 3px #961204;
+}
+
+.b1{
+    text-indent: 10px;
+}
+
+.b2{
+    text-indent: 5%;
+    letter-spacing: 5px;
+}
+
+.b3{
+    text-indent:1em;
+}
+
+.inuyasha1{
+    letter-spacing: 10px;
+}
+
+.inuyasha2{
+    word-spacing: 70px;
+}
+
+
+
+/* UNORDER LIST CSS*/
+.ul1{
+    list-style-type: none;
+}
+
+.ul2{
+    list-style-type: disc;
+}
+.ul3{
+    list-style-type: circle;
+}
+.ul4{
+    list-style-type: square;
+}
+
+/* ORDER LIST CSS*/
+.ol1{
+    list-style-type: decimal-leading-zero;
+}
+
+.ol2{
+    list-style-type: lower-alpha;
+}
+.ol3{
+    list-style-type: lower-roman;
+}
+.ol4{
+    list-style-type: upper-roman;
+}
+.ol5{
+    list-style-type: upper-alpha;
+}
+
+/* list-style-position*/
+.v1{
+    list-style-position: inside;
+}
+
+.v2{
+    list-style-position: outside;
+}
+
+/* list-style shorthand*/
+
+.v3{
+    list-style: circle inside;
+}
+
+.v4{
+    list-style: upper-alpha outside;
+}
+
+/* CSS Images*/
+.img{
+    height: 500px;
+    width: 600px;
+    background-image: url(https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmVhY2glMjBzdW5zZXR8ZW58MHx8MHx8&w=1000&q=80);
+}
+
+
+

@@ -1,0 +1,61 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fa8072;
+  /* overflow: hidden; */
+  overflow: scroll;
+}
+
+img {
+  width: 50%;
+  height: 50%;
+}
+
+.style-1 {
+  background-color: beige;
+  margin-top: 50px;
+  box-shadow: 10px 15px 10px 5px gray; 
+  text-align: center;
+  /* text-align:left; */
+  width: 50%;
+  float:left;
+}
+
+
+
+div {
+  background-color: aqua;
+  /* margin-left: 50px; */
+  /* margin-right: 100px; */
+  /* margin-top: 150px; */
+  /* margin-bottom: 10px; */
+
+  /*top right bottom left */
+margin: 50px,20px,50px,100px;
+
+  /* padding in all sides */
+/* padding: 50px, 20px; */
+
+padding-left: 30px;
+padding-right: 20px;
+padding-bottom: 30px;
+padding-top: 25px;
+
+/* border: 5px double rgb(40, 27, 155); */
+/* border: 5px ridge rgb(223, 150, 67); */
+/* border: 5px inset rgb(223, 150, 67); */
+/* border: 5px outset rgb(223, 150, 67); */
+border: 5px outset rgb(223, 150, 67);
+border-radius: 50px;
+
+border-top: 2px solid black;
+
+}
+
+
+
+
+
+

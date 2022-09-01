@@ -1,0 +1,170 @@
+div{
+  height: 200px;
+  width: 100%;
+  border: 1px solid gray;
+  margin-bottom: 50px;
+}
+
+.bg-img{
+  background-image: url(../images/S__201596933.jpg);
+}
+
+.bg-dot{
+  background-image: url(../images/dot.jpg);
+}
+
+/* backgraoud-repeat */
+
+.bg-repeat-no-repeat{
+  background-image: url(../images/dot.jpg);
+  background-repeat: no-repeat;
+}
+
+.bg-repeat-repeat-y{
+  background-image: url(../images/dot.jpg);
+  background-repeat: repeat-y;
+}
+
+.bg-repeat-repeat-x{
+  background-image: url(../images/dot.jpg);
+  background-repeat: repeat-x;
+}
+
+.bg-repeat-repeat{
+  background-image: url(../images/dot.jpg);
+  background-repeat: repeat; 
+  /* defaule value */
+}
+
+/* backgroud-size */
+
+.bg-img-small-cover
+{
+  background-image: url(../images/dot.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-img-large-cover
+{
+  background-image: url(../images/S__201596933.jpg);
+  background-size: cover;
+}
+
+.bg-img-contain
+{
+  background-image: url(../images/S__201596933.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.bg-img-100-200
+{
+  background-image: url(../images/S__201596933.jpg);
+  background-repeat: no-repeat;
+  background-size: 100px 200px;
+  /* horizontal-value vertical-value */
+}
+
+/* background-position */
+
+.bg-position-left-top
+{
+  background-image: url(../images/dot.jpg);
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+/* background-position: horizontal-position vertical-position */
+
+.bg-position-center-top
+{
+  background-image: url(../images/dot.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+/* background-position: horizontal-position vertical-position */
+
+.bg-position-right-top
+{
+  background-image: url(../images/dot.jpg);
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+/* background-position: horizontal-position vertical-position */
+
+.bg-position-left-center
+{
+  background-image: url(../images/dot.jpg);
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+/* background-position: horizontal-position vertical-position */
+
+.bg-position-center-center
+{
+  background-image: url(../images/dot.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+/* background-position: horizontal-position vertical-position */
+
+.bg-position-right-center
+{
+  background-image: url(../images/dot.jpg);
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+/* background-position: horizontal-position vertical-position */
+
+.bg-position-left-bottom
+{
+  background-image: url(../images/dot.jpg);
+  background-repeat: no-repeat;
+  background-position: left bottom;
+}
+/* background-position: horizontal-position vertical-position */
+
+.bg-position-center-bottom
+{
+  background-image: url(../images/dot.jpg);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+/* background-position: horizontal-position vertical-position */
+
+.bg-position-right-bottom
+{
+  background-image: url(../images/dot.jpg);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+/* background-position: horizontal-position vertical-position */
+
+/* Background-attchment */
+.bg-attchment-fixed
+{
+  background-image: url(../images/S__201596933.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+
+.bg-attchment-scroll
+{
+  background-image: url(../images/S__201596933.jpg);
+  background-size: cover;
+  background-attachment: scroll; 
+  /* default value */
+}
+
+/* background shothand */
+.bg-img-shorthand
+{
+  /* background: bg-color bg-img bg-repeat bg-attachment bg-position; */
+  /* NOTE: bg-size should be declared separetely */
+  background: violet url(../images/S__201596933.jpg) no-repeat fixed center;
+  background-size: cover;
+}
+
+
+

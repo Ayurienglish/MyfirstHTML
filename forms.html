@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML forms</title>
+</head>
+<body>
+    <!--When creating a form , always start with the FORM ELEMENT-->
+    <form action="" method="">
+        <!--action attribute => defines WHERE the date is taken to -->
+        <!--method attribute => difines HOW the data is taken -->
+        <label for="username">Username</label>
+        <input type="text" name="username" id="username" placeholder="@test_username" required>
+        <!-- required attribute. You cannnot submit your form if the input with the required attribute is empty-->
+
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" required>
+        <br><br>
+
+        <label for="birthdate">Birthdate</label>
+        <input type="date" name="birthday" id="birthday" required>
+
+        <br><br>
+
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="mail@mail.com">
+        <br><br>
+
+        <label for="bio">Bio / Description</label>
+        <br>
+        <textarea name="bio" id="bio" cols="30" rows="10"></textarea>
+        <br><br>
+        <p>Select Gender</p>
+        <input type="radio" name="gender" id="male" value="male">
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female" value="female">
+        <label for="female">Female</label>
+        <br><br>
+        <p>Select your hobby/ies</p>
+        <input type="checkbox" name="hobby" id="swimming" value="swimming">
+        <label for="swimming">Swimming</label>
+        <input type="checkbox" name="hobby" id="baking" value="baking">
+        <label for="baking">Baking</label>
+        <input type="checkbox" name="hobby" id="gardening" value="gardening">
+        <label for="gardning">Gardening</label>
+        
+        <br><br>
+
+        <label for="device">Select device</label>
+        <select name="device" id="device">
+            <option selectied disabled>Select a device. </option>
+            <option value="mobil_phone">Mobile Phone</option>
+            <option value="table">Tablet</option>
+            <option value="laptop">Laptop</option>
+            <option value="desktop">Desktop</option>
+        </select>
+
+
+
+
+        <!-- submit botton -->
+        <br><br>
+        <input type="submit" value="Submit" name="btn_submit" id="btn_submit" >
+
+        <input type="image" src="picture\グッジョブの手の無料アイコン2.png" name="submit" id="submit" width="15%" height="15%">
+
+        <button>I am a button </button>
+
+
+
+
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,84 @@
+div{
+  height: 150px;
+  border: 1px solid black;
+  background-color: pink;
+  margin: 25px auto;
+}
+
+/* position  */
+.position-static{
+  position: static; 
+  /* default position for all elements*/
+  /* If position is STATIC , positional properties(top,bottom,left,right,z-index) will not work */
+  left: 50%;
+  /* doesn't work because of position:static */
+}
+
+
+.position-relative{
+  position: relative;
+  /* Positional Properties (top,bottom,left,right,z-index) will work */
+  left: -50%;
+}
+
+.position-abosolute{
+  position: absolute;
+  right: 0;
+}
+
+.position-fixed{
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+
+a{
+  border: 1px solid black;
+  width: 50%;
+}
+
+/* display */
+.display-block{
+  display: block;
+  /* it makes the element behave like an inline element */
+  height: 150px;
+}
+
+.display-inline{
+  display: inline;
+  /* it makes the element behave like an inline element */
+  /* You cannot set the margin top and bottom, width and height */
+  width: 50%;
+  height:100px;
+}
+
+.display-inline-block{
+  display:inline-block;
+  /* The element behave like an inline element but with block properties */
+  /* it means ,you can set the width ,height and margin toop and bottom of the element */
+  width: 50%;
+  margin-top: 25px;
+}
+
+
+.display-none{
+  display: none;
+  /* hides the element */
+}
+
+.display-z-index img{
+  position: absolute;
+  left: 0px;
+  top: 5px;
+  z-index: -1;
+}
+
+
+img{
+  height: 30%;
+  width: 40%;
+
+}
+
+

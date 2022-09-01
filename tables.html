@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+</head>
+<body>
+    <!--to create a table , #1. Use the table element-->
+<table border="1" width="100%" >
+    <!-- thead groups the header contents.basically,the header -->
+    <thead>
+        <tr><!--te defines a row in the table-->
+            <th>Name</th><!--th defines a table heding cell-->
+            <th>Age</th>
+            <th>Email</th>
+        </tr>
+    </thead>
+
+    <!-- tbody groups the body contents. basically, the data -->
+    <tbody>
+        <tr><!--tr defines a table row-->
+            <td>Tetsuto</td><!--td defines a table date cell-->              
+            <td>29</td>
+            <td>tetsuto@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Koki</td>
+            <td>25</td>
+            <td>koki@gmail.com</td>
+        </tr>
+    </tbody>
+
+</table>
+
+<br>
+
+<table border="1">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th colspan="3">Contact Numbers</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Bill</td>
+            <td>111-111</td>
+            <td>222-222</td>
+        </tr>
+        <tr>
+            <td>Steave</td>
+            <td>333-333</td>
+            <td>444-444</td>
+        </tr>
+        <tr>
+            <td>Tetudo</td>
+            <td>555-555</td>
+            <td>777-777</td>
+            <td>888-888</td>
+        </tr>
+    </tbody>
+
+</table>
+
+<br>
+
+<table border="1">
+    <tbody>
+        <tr>
+            <th>Name</th>
+            <td>Bill</td>
+            <td>Steve</td>
+        </tr>
+        <tr>
+            <th rowspan="3">Contact Numbers</th>
+            <td>111-111</td>
+            <td>333-333</td>
+        </tr>
+        <tr>
+            <td>222-222</td>
+            <td>444-444</td>
+        </tr>
+        <tr>
+            <td>555-555</td>
+            <td>777-777</td>
+        </tr>
+    </tbody>
+
+
+
+
+</table>
+
+</body>
+</html>

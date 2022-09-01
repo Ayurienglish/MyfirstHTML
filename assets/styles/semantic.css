@@ -1,0 +1,52 @@
+.navbar{
+  display: block;
+}
+
+.navlink {
+  display: block;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0%;
+  padding: 0%;
+  overflow: hidden;
+}
+
+li{
+  float: left;
+}
+
+li a{
+  text-decoration: none;
+  padding: 8px;
+  background-color: aqua;
+}
+
+
+h1{
+  color: cornflowerblue;
+  text-align: center;
+}
+
+img{
+  height: 40%;
+  width:30%;
+  margin-left: 35%;
+}
+
+h2{
+  text-align: center;
+}
+
+.images-text p{
+  padding: 25px;
+}
+
+aside{
+  width: 30%;
+  padding-left: 15px;
+  margin-left: 15px;
+  float: right;
+  background-color: bisque;
+}
